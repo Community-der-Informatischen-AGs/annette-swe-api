@@ -1,5 +1,7 @@
 
 .main {
+  padding: 25px;
+  word-break: normal;
 }
 .section {
   margin-top: 30px;
