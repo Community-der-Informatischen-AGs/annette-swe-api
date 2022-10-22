@@ -13,9 +13,10 @@ const Message: NextPage = () => {
       <h1 className={styles.heading}>Annette-App 4.0</h1>
       <section className={styles.section}>
         <h2>Nachricht von Rui Zhang</h2>
-        <p>Es ist uns, den Entwicklern bei der Arbeitsgemeinschaft {'"'}Annette-Softwareentwicklung{'"'} eine Freude, euch Annette-App 4.0 zu präsentieren. Seit Anfang des Jahres 2022 arbeiten wir zusammen fleißig an diversen Software-Projekten der Schule, inklusive der Annette-App.</p>
+        <p>Es ist uns, den Entwicklern bei der Arbeitsgemeinschaft {'"'}Annette-Softwareentwicklung{'"'} eine Freude, euch Annette-App 4.0 zu präsentieren. </p>
+          <p>Seit Anfang des Jahres 2022 arbeiten wir zusammen fleißig an diversen Software-Projekten der Schule, inklusive der Annette-App.</p>
 
-<p>Falls ihr Feedback, Wünsche oder Kritik habt, so schreibt eine Email an annettesoftware@gmail.com
+<p>Falls ihr Feedback, Wünsche oder Kritik habt, so schreibt eine Email an <a href="mailto:annettesoftware@gmail.com">annettesoftware@gmail.com</a>
         </p>
       </section>
       <section className={styles.section}>
