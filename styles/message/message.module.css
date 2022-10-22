@@ -3,16 +3,19 @@
   padding: 25px;
   word-break: normal;
 }
+.heading {
+  font-size: 2.2em;
+}
 .section {
   margin-top: 30px;
 }
 .section h2 {
-  font-size: 2.2em;
+  font-size: 1.8em;
 }
 .section p, .section i {
   margin-top: 10px;
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 .section i {
-  font-size: 1.7em;
+  font-size: 1.3em;
 }
