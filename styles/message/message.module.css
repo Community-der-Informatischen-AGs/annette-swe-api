@@ -1,0 +1,17 @@
+
+.main {
+  padding: 50px;
+}
+.section {
+  margin-top: 30px;
+}
+.section h2 {
+  font-size: 2.2em;
+}
+.section p, .section i {
+  margin-top: 10px;
+  font-size: 1.8em;
+}
+.section i {
+  font-size: 1.7em;
+}
