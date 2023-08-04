@@ -6,7 +6,7 @@ export default async function handler(
   res: NextApiResponse
 ) {
   //WebUntis initialisieren
-  const untis = new WebUntisLib.WebUntisAnonymousAuth(
+  /*const untis = new WebUntisLib.WebUntisAnonymousAuth(
     "avdhg-duesseldorf", //Schulname
     "ajax.webuntis.com" //Servername, auf dem der Stundenplan liegt
   );
@@ -35,5 +35,7 @@ export default async function handler(
    console.log(klassen);
 
    //Logout (wichtig)
-   await untis.logout();
+   await untis.logout();*/
+
+   res.status(200).json("Moin!");
 }
